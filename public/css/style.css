@@ -59,10 +59,10 @@
 .project_bg{
     background-image: linear-gradient(rgb(54, 54, 54), rgb(211, 211, 211) 80%, #363535e8);
     color: white;
-    margin: auto;
+    margin: 0px;
     padding: auto;
     height: auto;
-    padding: 30px;
+    padding: 80px;
 }
 .project_bg h1 u{
     text-shadow: 2px 2px 0px black;
