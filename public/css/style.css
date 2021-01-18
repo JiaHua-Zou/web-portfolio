@@ -4,6 +4,7 @@
     box-sizing: border-box;
     height: 100%;
     scroll-behavior: smooth;
+    font-family: 'PT Serif', serif;
 }
 .navbar{
     position: fixed;
@@ -18,7 +19,7 @@
     height: 5%;
     box-shadow:  0 6px 10px -4px black;
 }
-.nav{
+.nav ul li a{
     color: white;
 }
 .bg {
@@ -56,14 +57,19 @@
 }
 
 .project_bg{
+    background-image: linear-gradient(rgb(54, 54, 54), rgb(211, 211, 211) 80%, #363535e8);
+    color: white;
     margin: auto;
     padding: auto;
     height: auto;
-    margin: 20px;
     padding: 30px;
+}
+.project_bg h1 u{
+    text-shadow: 2px 2px 0px black;
 }
 
 .project{
+    background-color: white;
     position: relative;
     color: black;
     border: solid 1px #c4c4c4;
@@ -109,17 +115,20 @@
     margin: auto;
     padding: auto;
     height: auto;
+    text-shadow: 2px 2px 0px black;
 }
 .education{
     width: 70%;
-    margin: 10px 10px 10px 80px;
+    margin: 0px 10px 10px 80px;
     padding: 10px;
 }
 
 .timeline{
+    color: black;
     position: absolute;
-    border: solid 1px #c9c9c9;
+    border: solid 1px black;
     background-color: #e6e6e6;
+    border-radius: 5px 0 5px 5px;
     margin: 20px;
     height: 2100px;
     width: 10px;
@@ -129,15 +138,16 @@
 .time{
     position: relative;
     width: 150px;
-    height: 510px;
-    padding: 4px;
+    height: 520px;
+    padding: 0px;
 }
 .time p{
     background-color: #e6e6e6;
-    margin: 4px;
+    margin: 0 0 0 8px;
+    border-radius: 0 10px 10px 0;
     height: auto;
     width: auto;
-    border: solid 1px #c9c9c9;
+    border: solid 1px black;
     border-left: none;
     text-align: center;
 }
